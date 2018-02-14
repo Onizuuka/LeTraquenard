@@ -16,6 +16,12 @@
   @endif
   <div class="col-md-6 col-md-offset-3">
   <h1>Bienvenue sur "Le Traquenard"</h1>
-  <img src="images/Logo.png" alt="logo" class="img-responsive">
+  <img src="images/Logo.png" alt="logo" class="img-responsive logo-index">
   </div>
+ 
+
 @endsection
+ <footer class="footer">
+    <img src="images/Autres/logo_interdiction.png" alt="logo interdiction">
+    <p>Attention ! L'abus d'alcool est dangereux pour la santé, consommez avec modération !</p>
+</footer>

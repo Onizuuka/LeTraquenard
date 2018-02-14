@@ -10,8 +10,10 @@
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/app/Http/Middleware/VerifyCsrfToken.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/database/migrations/2017_08_24_091943_create_orders_table.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/routes/web.php</file>
+            <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/app/Http/Kernel.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/resources/views/layouts/master.blade.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/app/Cart.php</file>
+            <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/public/css/theme.css</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/app/Http/Controllers/ProductController.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/app/Http/Middleware/RedirectIfAuthenticated.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/app/Order.php</file>

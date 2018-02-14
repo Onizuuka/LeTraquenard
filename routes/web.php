@@ -7,8 +7,18 @@ Route::get('/',[
 ]);
 // Route cocktail
 Route::get('/cocktails',[
-    'uses' => 'ProductController@getBoissons',
+    'uses' => 'ProductController@getCocktails',
     'as' => 'shop.cocktail'
+]);
+// Route alcool
+Route::get('/alcools',[
+    'uses' => 'ProductController@getAlcools',
+    'as' => 'shop.alcool'
+]);
+// Route soft
+Route::get('/softs',[
+    'uses' => 'ProductController@getSofts',
+    'as' => 'shop.soft'
 ]);
 // Routes utilisateur
 Route::group(['prefix' => 'user'], function () {

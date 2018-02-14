@@ -14,6 +14,12 @@
            <li >
            <a href="{{ route('shop.cocktail') }}">Cocktails alcoolisés</a>
        </li>
+       <li >
+           <a href="{{ route('shop.alcool') }}">Alcools</a>
+       </li>
+       <li >
+           <a href="{{ route('shop.soft') }}">Softs</a>
+       </li>
        </ul>
      <ul class="nav navbar-nav navbar-right">
 

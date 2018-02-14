@@ -22,6 +22,18 @@ class ProductController extends Controller
         $products = DB::table('products')->orderBy('id', 'DESC')->paginate(12);
         return view('shop.cocktail',['products' => $products]);
     }
+    public function getCocktails(){
+        $products = DB::table('products')->where('genre', 'cocktail')->orderBy('id', 'DESC')->paginate(12);
+        return view('shop.cocktail',['products' => $products]);
+    }
+    public function getAlcools(){
+        $products = DB::table('products')->where('genre', 'alcool')->orderBy('id', 'DESC')->paginate(12);
+        return view('shop.alcool',['products' => $products]);
+    }
+    public function getSofts(){
+        $products = DB::table('products')->where('genre', 'soft')->orderBy('id', 'DESC')->paginate(12);
+        return view('shop.soft',['products' => $products]);
+    }
 
     public function getAddToCart(Request $request, $id) {
         $product = Product::find($id);
