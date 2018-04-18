@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Product in the shopping cart
+    Votre commande
 @endsection
 
 
@@ -47,3 +47,7 @@
         </div>
     @endif
 @endsection
+ <footer class="footer">
+    <img src="images/Autres/logo_interdiction.png" alt="logo interdiction">
+    <p>Attention ! L'abus d'alcool est dangereux pour la santé, consommez avec modération !</p>
+</footer>

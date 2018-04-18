@@ -16,7 +16,7 @@
                     <ul class="list-group">
                         @foreach($order->cart->items as $item)
                             <li class="list-group-item">
-                                <span class="badge">$ {{ $item['price'] }}</span>
+                                <span class="badge">€ {{ $item['price'] }}</span>
                                 {{ $item['item']['title'] }} | {{ $item['qty'] }} unité(s)
                             </li>
                         @endforeach

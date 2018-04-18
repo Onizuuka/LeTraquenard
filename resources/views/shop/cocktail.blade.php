@@ -1,5 +1,6 @@
 @extends('layouts.master')
 
+
 @section('title')
   Nos cocktails
 @endsection
@@ -19,7 +20,7 @@
       @foreach($productChunk as $product)
         <div class="col-sm-4 col-md-4">
           <div class="thumbnail">
-            <img src="{!!  URL::to('images/Prefait',array($product->imagePath)) !!}  " alt="Product" class="img-responsive">
+            <img src="{!!  URL::to('images/Cocktail',array($product->imagePath)) !!}  " alt="Product" class="img-responsive">
             <div class="caption">
               <h3>{{ $product->title }}</h3>
               <p class="description">{{ $product->description }}</p>

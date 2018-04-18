@@ -18,19 +18,26 @@
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/app/Http/Middleware/RedirectIfAuthenticated.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/app/Order.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/resources/lang/en/validation.php</file>
+            <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/public/js/app.js</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/app/Exceptions/Handler.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/public/css/font-awesome.min.css</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/app/Product.php</file>
+            <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/public/js/letraquenard.js</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/resources/views/shop/index.blade.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/resources/views/user/profile.blade.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/resources/lang/en/passwords.php</file>
+            <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/routes/channels.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/resources/views/shop/alcool.blade.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/resources/views/partials/header.blade.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/public/css/app.css</file>
+            <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/routes/console.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/resources/views/shop/shopping-cart.blade.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/public/js/charge.js</file>
+            <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/routes/api.php</file>
+            <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/.env</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/resources/views/user/signin.blade.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/resources/views/shop/check.blade.php</file>
+            <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/resources/views/shop/soft.blade.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/public/css/base.css</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/resources/views/shop/cocktail.blade.php</file>
             <file>file:/C:/xampp/htdocs/LeTraquenardFull/LeTraquenardFull/app/Http/Controllers/UserController.php</file>

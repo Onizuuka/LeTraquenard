@@ -18,7 +18,8 @@
     <div class="container">
       @yield('content')
     </div>
-
+    
+    <script type="text/javascript" src="{{ asset('/js/letraquenard.js') }}"></script>
     <script type="text/javascript" src="{{ asset('/js/jquery.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('/js/app.js') }}"></script>
       @yield('scripts')

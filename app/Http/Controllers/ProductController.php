@@ -18,23 +18,19 @@ class ProductController extends Controller
         $products = DB::table('products')->orderBy('id', 'DESC')->paginate(12);
         return view('shop.index',['products' => $products]);
     }
-    public function getBoissons(){
-        $products = DB::table('products')->orderBy('id', 'DESC')->paginate(12);
-        return view('shop.cocktail',['products' => $products]);
-    }
     public function getCocktails(){
-        $products = DB::table('products')->where('genre', 'cocktail')->orderBy('id', 'DESC')->paginate(12);
+        $products = DB::table('products')->where('genre', 'cocktail')->orderBy('title', 'ASC')->paginate(12);
         return view('shop.cocktail',['products' => $products]);
     }
     public function getAlcools(){
-        $products = DB::table('products')->where('genre', 'alcool')->orderBy('id', 'DESC')->paginate(12);
+        $products = DB::table('products')->where('genre', 'alcool')->orderBy('title', 'ASC')->paginate(12);
         return view('shop.alcool',['products' => $products]);
     }
     public function getSofts(){
-        $products = DB::table('products')->where('genre', 'soft')->orderBy('id', 'DESC')->paginate(12);
+        $products = DB::table('products')->where('genre', 'soft')->orderBy('title', 'ASC')->paginate(12);
         return view('shop.soft',['products' => $products]);
     }
-
+/*
     public function getAddToCart(Request $request, $id) {
         $product = Product::find($id);
         $oldCart = Session::has('cart') ? Session::get('cart') : null;
@@ -43,7 +39,17 @@ class ProductController extends Controller
 
         $request->session()->put('cart', $cart);
         //dd($request->session()->get('cart'));
-        return redirect()->route('shop.cocktail');
+        return redirect()->back();
+    }*/
+    
+    public function getAddToCart(Request $request, $id) {
+        $product = Product::find($id);
+        $oldCart = Session::has('cart') ? Session::get('cart') : null;
+        $cart = new Cart($oldCart);
+        $cart->add($product, $product->id);
+        $request->session()->put('cart', $cart);  
+        //dd($request->session()->get('cart'));
+        return redirect()->back();
     }
 
     public function getCart() {

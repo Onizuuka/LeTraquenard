@@ -20,7 +20,8 @@ Route::get('/softs',[
     'uses' => 'ProductController@getSofts',
     'as' => 'shop.soft'
 ]);
-// Routes utilisateur
+
+// Routes groupes utilisateur
 Route::group(['prefix' => 'user'], function () {
 // Routes visiteur
     Route::group(['middleware' => 'guest'], function () {
@@ -56,8 +57,16 @@ Route::group(['prefix' => 'user'], function () {
     });
 });
 
+/*
+//ajoute produits à la commande
 
-//ajoute un produit à la commande
+Route::get('/add-to-cart/{id}', [
+    'uses' => 'ProductController@getAddToCart',
+    'as' => 'product.addtocart'
+]);
+*/
+
+//ajoute produits à la commande
 
 Route::get('/add-to-cart/{id}', [
     'uses' => 'ProductController@getAddToCart',
